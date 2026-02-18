@@ -1,0 +1,23 @@
+2026-02-18 19:18:15,295 INFO    MainThread:68815 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-18 19:18:15,295 INFO    MainThread:68815 [wandb_setup.py:_flush():81] Configure stats pid to 68815
+2026-02-18 19:18:15,295 INFO    MainThread:68815 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-18 19:18:15,295 INFO    MainThread:68815 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/logs/debug.log
+2026-02-18 19:18:15,296 INFO    MainThread:68815 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/logs/debug-internal.log
+2026-02-18 19:18:15,296 INFO    MainThread:68815 [wandb_init.py:init():844] calling init triggers
+2026-02-18 19:18:15,296 INFO    MainThread:68815 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'runner': 'parallel', 'mac': 'basic_mac', 'env': 'gymma', 'common_reward': True, 'reward_scalarisation': 'sum', 'env_args': {'key': 'rware:rware-tiny-2ag-v2', 'time_limit': 300, 'pretrained_wrapper': None, 'seed': 63787758}, 'batch_size_run': 1, 'test_nepisode': 10, 'test_interval': 20000, 'test_greedy': True, 'log_interval': 50000, 'runner_log_interval': 10000, 'learner_log_interval': 10000, 't_max': 200000, 'use_cuda': False, 'buffer_cpu_only': True, 'use_tensorboard': False, 'use_wandb': True, 'wandb_team': 'yuthu318-link-ping-university', 'wandb_project': 'marl-rware-tl', 'wandb_mode': 'offline', 'wandb_save_model': False, 'save_model': False, 'save_model_interval': 50000, 'checkpoint_path': '', 'evaluate': False, 'render': False, 'load_step': 0, 'save_replay': False, 'local_results_path': 'results', 'gamma': 0.99, 'batch_size': 10, 'buffer_size': 10, 'lr': 0.0005, 'optim_alpha': 0.99, 'optim_eps': 1e-05, 'grad_norm_clip': 10, 'add_value_last_step': True, 'agent': 'rnn', 'hidden_dim': 128, 'obs_agent_id': True, 'obs_last_action': False, 'repeat_id': 1, 'label': 'IA2C__rware_tiny__2ag__vanilla', 'hypergroup': None, 'action_selector': 'soft_policies', 'mask_before_softmax': True, 'target_update_interval_or_tau': 0.01, 'obs_individual_obs': False, 'agent_output_type': 'pi_logits', 'learner': 'actor_critic_learner', 'entropy_coef': 0.001, 'standardise_returns': False, 'standardise_rewards': True, 'use_rnn': True, 'q_nstep': 5, 'critic_type': 'ac_critic', 'name': 'ia2c', 'seed': 63787758, '_wandb': {}}
+2026-02-18 19:18:15,296 INFO    MainThread:68815 [wandb_init.py:init():892] starting backend
+2026-02-18 19:18:15,669 INFO    MainThread:68815 [wandb_init.py:init():895] sending inform_init request
+2026-02-18 19:18:15,683 INFO    MainThread:68815 [wandb_init.py:init():903] backend started and connected
+2026-02-18 19:18:15,689 INFO    MainThread:68815 [wandb_init.py:init():973] updated telemetry
+2026-02-18 19:18:15,717 INFO    MainThread:68815 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-18 19:18:15,836 INFO    MainThread:68815 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-18 19:18:15,961 INFO    MainThread:68815 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-18 19:18:15,961 INFO    MainThread:68815 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-18 19:18:15,961 INFO    MainThread:68815 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-18 19:18:15,961 INFO    MainThread:68815 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-18 19:18:15,963 INFO    MainThread:68815 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-18 19:24:49,268 INFO    MainThread:68815 [wandb_run.py:_finish():2291] finishing run yuthu318-link-ping-university/marl-rware-tl/w5a4isid
+2026-02-18 19:24:49,269 INFO    MainThread:68815 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-02-18 19:24:49,269 INFO    MainThread:68815 [wandb_run.py:_restore():2472] restore
+2026-02-18 19:24:49,269 INFO    MainThread:68815 [wandb_run.py:_restore():2478] restore done

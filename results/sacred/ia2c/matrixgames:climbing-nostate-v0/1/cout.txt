@@ -1,0 +1,496 @@
+[INFO 18:00:07] pymarl Running command 'my_main'
+[INFO 18:00:07] pymarl Started run with ID "1"
+[DEBUG 18:00:07] pymarl Starting Heartbeat
+[DEBUG 18:00:07] my_main Started
+[WARNING 18:00:07] my_main CUDA flag use_cuda was switched OFF automatically because no CUDA devices are available!
+[INFO 18:00:07] my_main Experiment Parameters:
+[INFO 18:00:07] my_main 
+
+{   'action_selector': 'soft_policies',
+    'add_value_last_step': True,
+    'agent': 'rnn',
+    'agent_output_type': 'pi_logits',
+    'batch_size': 10,
+    'batch_size_run': 10,
+    'buffer_cpu_only': True,
+    'buffer_size': 10,
+    'checkpoint_path': '',
+    'common_reward': True,
+    'critic_type': 'ac_critic',
+    'entropy_coef': 0.001,
+    'env': 'gymma',
+    'env_args': {   'key': 'matrixgames:climbing-nostate-v0',
+                    'pretrained_wrapper': None,
+                    'seed': 620656328,
+                    'time_limit': 25},
+    'evaluate': False,
+    'gamma': 0.99,
+    'grad_norm_clip': 10,
+    'hidden_dim': 128,
+    'hypergroup': None,
+    'label': 'default_label',
+    'learner': 'actor_critic_learner',
+    'learner_log_interval': 10000,
+    'load_step': 0,
+    'local_results_path': 'results',
+    'log_interval': 50000,
+    'lr': 0.0005,
+    'mac': 'basic_mac',
+    'mask_before_softmax': True,
+    'name': 'ia2c',
+    'obs_agent_id': True,
+    'obs_individual_obs': False,
+    'obs_last_action': False,
+    'optim_alpha': 0.99,
+    'optim_eps': 1e-05,
+    'q_nstep': 5,
+    'render': False,
+    'repeat_id': 1,
+    'reward_scalarisation': 'sum',
+    'runner': 'parallel',
+    'runner_log_interval': 10000,
+    'save_model': False,
+    'save_model_interval': 50000,
+    'save_replay': False,
+    'seed': 620656328,
+    'standardise_returns': False,
+    'standardise_rewards': True,
+    't_max': 20050000,
+    'target_update_interval_or_tau': 0.01,
+    'test_greedy': True,
+    'test_interval': 50000,
+    'test_nepisode': 100,
+    'use_cuda': False,
+    'use_rnn': True,
+    'use_tensorboard': False,
+    'use_wandb': False,
+    'wandb_mode': 'offline',
+    'wandb_project': None,
+    'wandb_save_model': False,
+    'wandb_team': None}
+
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/dependencies.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:16: UserWarning: PettingZoo is not installed, so these environments will not be available! To install, run `pip install pettingzoo`
+  warnings.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/envs/gymma.py:23: UserWarning: VMAS is not installed, so these environments will not be available! To install, run `pip install 'vmas[gymnasium]'`
+  warnings.warn(
+[DEBUG 18:00:16] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:16] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:16] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:16] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:16] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:16] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:16] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:16] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'version'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[DEBUG 18:00:17] git.util sys.platform='darwin', git_executable='git'
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--cached', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[DEBUG 18:00:17] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+[DEBUG 18:00:17] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[DEBUG 18:00:18] git.cmd Popen(['git', 'diff', '--abbrev=40', '--full-index', '--raw'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=None, shell=False, universal_newlines=False)
+[DEBUG 18:00:18] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[DEBUG 18:00:18] git.cmd Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/huangyuting/Desktop/thesis/epymarl, stdin=<valid stream>, shell=False, universal_newlines=False)
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+[INFO 18:00:19] my_main Beginning training for 20050000 timesteps
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:93: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target["filled"][slices] = 1
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:105: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  self._check_safe_view(v, target[k][_slices])
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:106: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target[k][_slices] = v.view_as(target[k][_slices])
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:110: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  v = target[k][_slices]
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:113: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target[new_k][_slices] = v.view_as(target[new_k][_slices])
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:134: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: int64[0m
+  logger.warn(
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>[0m
+  logger.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:152: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  new_data.transition_data[k] = v[item]
+[INFO 18:00:19] my_main t_env: 250 / 20050000
+[INFO 18:00:19] my_main Estimated time left: 2 minutes, 5 seconds. Time passed: 0 seconds
+[INFO 18:00:31] my_main Recent Stats | t_env:      50000 | Episode:     2000
+advantage_mean:            0.0862	agent_grad_norm:           0.1308	critic_grad_norm:          0.6626	critic_loss:               0.9832
+ep_length_mean:           25.0000	pg_loss:                  -0.0090	pi_max:                    0.8647	q_taken_mean:              1.1841
+return_mean:             146.5470	return_std:               57.3110	target_mean:               1.2703	td_error_abs:              0.5193
+test_ep_length_mean:      25.0000	test_return_mean:        -123.7600	test_return_std:         133.6106	
+[INFO 18:00:31] my_main t_env: 50250 / 20050000
+[INFO 18:00:31] my_main Estimated time left: 1 hours, 20 minutes, 7 seconds. Time passed: 12 seconds
+[INFO 18:00:43] my_main Recent Stats | t_env:     100000 | Episode:     4000
+advantage_mean:            0.0049	agent_grad_norm:           0.0002	critic_grad_norm:          0.0476	critic_loss:               0.0109
+ep_length_mean:           25.0000	pg_loss:                   0.0000	pi_max:                    0.9992	q_taken_mean:              2.1185
+return_mean:             249.6200	return_std:                2.7291	target_mean:               2.1234	td_error_abs:              0.0713
+test_ep_length_mean:      25.0000	test_return_mean:         62.9800	test_return_std:          67.6657	
+[INFO 18:00:43] my_main t_env: 100250 / 20050000
+[INFO 18:00:43] my_main Estimated time left: 1 hours, 23 minutes, 39 seconds. Time passed: 24 seconds
+[INFO 18:00:55] my_main Recent Stats | t_env:     150000 | Episode:     6000
+advantage_mean:            0.0022	agent_grad_norm:           0.0015	critic_grad_norm:          0.0397	critic_loss:               0.0048
+ep_length_mean:           25.0000	pg_loss:                   0.0009	pi_max:                    0.9997	q_taken_mean:              2.6417
+return_mean:             249.9440	return_std:                0.8445	target_mean:               2.6439	td_error_abs:              0.0459
+test_ep_length_mean:      25.0000	test_return_mean:        125.3200	test_return_std:          45.1105	
+[INFO 18:00:55] my_main t_env: 150250 / 20050000
+[INFO 18:00:55] my_main Estimated time left: 1 hours, 13 minutes, 46 seconds. Time passed: 36 seconds
+[INFO 18:01:05] my_main Recent Stats | t_env:     200000 | Episode:     8000
+advantage_mean:           -0.0010	agent_grad_norm:           0.0079	critic_grad_norm:          0.0275	critic_loss:               0.0066
+ep_length_mean:           25.0000	pg_loss:                  -0.0061	pi_max:                    0.9999	q_taken_mean:              3.0443
+return_mean:             249.9640	return_std:                0.5845	target_mean:               3.0432	td_error_abs:              0.0339
+test_ep_length_mean:      25.0000	test_return_mean:        156.4900	test_return_std:          33.8329	
+[INFO 18:01:05] my_main t_env: 200250 / 20050000
+[INFO 18:01:05] my_main Estimated time left: 1 hours, 11 minutes, 56 seconds. Time passed: 46 seconds
+[INFO 18:01:17] my_main Recent Stats | t_env:     250000 | Episode:    10000
+advantage_mean:           -0.0011	agent_grad_norm:           0.0000	critic_grad_norm:          0.0304	critic_loss:               0.0012
+ep_length_mean:           25.0000	pg_loss:                   0.0000	pi_max:                    0.9999	q_taken_mean:              3.3522
+return_mean:             249.9970	return_std:                0.2422	target_mean:               3.3511	td_error_abs:              0.0223
+test_ep_length_mean:      25.0000	test_return_mean:        175.1720	test_return_std:          27.2653	
+[INFO 18:01:17] my_main t_env: 250250 / 20050000
+[INFO 18:01:17] my_main Estimated time left: 1 hours, 14 minutes, 48 seconds. Time passed: 58 seconds
+[INFO 18:01:29] my_main Recent Stats | t_env:     300000 | Episode:    12000
+advantage_mean:           -0.0007	agent_grad_norm:           0.0000	critic_grad_norm:          0.0150	critic_loss:               0.0007
+ep_length_mean:           25.0000	pg_loss:                   0.0000	pi_max:                    0.9999	q_taken_mean:              3.5811
+return_mean:             249.9860	return_std:                0.3017	target_mean:               3.5804	td_error_abs:              0.0165
+test_ep_length_mean:      25.0000	test_return_mean:        249.9240	test_return_std:           0.5432	
+[INFO 18:01:29] my_main t_env: 300250 / 20050000
+[INFO 18:01:29] my_main Estimated time left: 1 hours, 18 minutes, 11 seconds. Time passed: 1 minutes, 10 seconds
+[INFO 18:01:40] my_main Recent Stats | t_env:     350000 | Episode:    14000
+advantage_mean:           -0.0004	agent_grad_norm:           0.0000	critic_grad_norm:          0.0116	critic_loss:               0.0004
+ep_length_mean:           25.0000	pg_loss:                  -0.0000	pi_max:                    1.0000	q_taken_mean:              3.7503
+return_mean:             249.9880	return_std:                0.2891	target_mean:               3.7499	td_error_abs:              0.0122
+test_ep_length_mean:      25.0000	test_return_mean:        249.9600	test_return_std:           0.3980	
+[INFO 18:01:40] my_main t_env: 350250 / 20050000
+[INFO 18:01:40] my_main Estimated time left: 1 hours, 12 minutes, 33 seconds. Time passed: 1 minutes, 21 seconds
+[INFO 18:01:51] my_main Recent Stats | t_env:     400000 | Episode:    16000
+advantage_mean:            0.0016	agent_grad_norm:           0.0000	critic_grad_norm:          0.0241	critic_loss:               0.0002
+ep_length_mean:           25.0000	pg_loss:                  -0.0000	pi_max:                    1.0000	q_taken_mean:              3.8708
+return_mean:             249.9920	return_std:                0.1810	target_mean:               3.8724	td_error_abs:              0.0100
+test_ep_length_mean:      25.0000	test_return_mean:        249.9600	test_return_std:           0.3980	
+[INFO 18:01:51] my_main t_env: 400250 / 20050000
+[INFO 18:01:51] my_main Estimated time left: 1 hours, 13 minutes, 0 seconds. Time passed: 1 minutes, 32 seconds
+[INFO 18:02:02] my_main Recent Stats | t_env:     450000 | Episode:    18000
+advantage_mean:            0.0001	agent_grad_norm:           0.0000	critic_grad_norm:          0.0016	critic_loss:               0.0001
+ep_length_mean:           25.0000	pg_loss:                  -0.0000	pi_max:                    1.0000	q_taken_mean:              3.9572
+return_mean:             250.0020	return_std:                0.0282	target_mean:               3.9573	td_error_abs:              0.0062
+test_ep_length_mean:      25.0000	test_return_mean:        249.9600	test_return_std:           0.3980	
+[INFO 18:02:02] my_main t_env: 450250 / 20050000
+[INFO 18:02:02] my_main Estimated time left: 1 hours, 13 minutes, 48 seconds. Time passed: 1 minutes, 43 seconds
+[INFO 18:02:14] my_main Recent Stats | t_env:     500000 | Episode:    20000
+advantage_mean:           -0.0077	agent_grad_norm:           0.0000	critic_grad_norm:          0.1272	critic_loss:               0.0003
+ep_length_mean:           25.0000	pg_loss:                  -0.0000	pi_max:                    1.0000	q_taken_mean:              4.0194
+return_mean:             249.9920	return_std:                0.2280	target_mean:               4.0117	td_error_abs:              0.0106
+test_ep_length_mean:      25.0000	test_return_mean:        249.9800	test_return_std:           0.1990	
+[INFO 18:02:14] my_main t_env: 500250 / 20050000
+[INFO 18:02:14] my_main Estimated time left: 1 hours, 16 minutes, 8 seconds. Time passed: 1 minutes, 55 seconds

@@ -1,0 +1,274 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.23
+    cli_version: 0.25.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1771437948
+    t:
+      1:
+      - 1
+      - 5
+      - 52
+      - 53
+      2:
+      - 1
+      - 5
+      - 52
+      - 53
+      3:
+      - 2
+      - 4
+      - 16
+      - 37
+      - 42
+      - 61
+      4: 3.9.23
+      5: 0.25.0
+      13: darwin-arm64
+    e:
+      fq7hsaj5kdbmb6zlnrnsrqjy5mcnaw6f:
+        os: macOS-14.6.1-arm64-arm-64bit
+        python: CPython 3.9.23
+        started_at: '2026-02-18T18:05:48.062067Z'
+        args:
+        - --config=qmix
+        - --env-config=gymma
+        - with
+        - env_args.key=rware:rware-tiny-2ag-v2
+        - env_args.time_limit=300
+        - t_max=200000
+        - test_interval=20000
+        - test_nepisode=10
+        - batch_size_run=1
+        - use_wandb=True
+        - wandb_mode=offline
+        - wandb_team=yuthu318-link-ping-university
+        - wandb_project=marl-rware-tl
+        - label=QMIX__rware_tiny__2ag__vanilla
+        program: /Users/huangyuting/Desktop/thesis/epymarl/src/main.py
+        code_path: src/main.py
+        code_path_local: src/main.py
+        git:
+          remote_url: https://github.com/saychien/epymarl.git
+          commit: cbc38c09588064eab978501d0f12c2cf58fa7fc2
+        root: /Users/huangyuting/Desktop/thesis/epymarl
+        host: huangyutingdeMacBook-Air.local
+        executable: /opt/anaconda3/envs/epymarl_p1/bin/python
+        cpu_count: 8
+        cpu_count_logical: 8
+        disk:
+          /:
+            total: '245107195904'
+            used: '213277306880'
+        memory:
+          total: '8589934592'
+        apple:
+          name: Apple M1
+          ecpu_cores: 4
+          pcpu_cores: 4
+          gpu_cores: 7
+          memory_gb: 8
+          swap_total_bytes: '5368709120'
+          ram_total_bytes: '8589934592'
+        writer_id: fq7hsaj5kdbmb6zlnrnsrqjy5mcnaw6f
+runner:
+  desc: null
+  value: episode
+mac:
+  desc: null
+  value: basic_mac
+env:
+  desc: null
+  value: gymma
+common_reward:
+  desc: null
+  value: true
+reward_scalarisation:
+  desc: null
+  value: sum
+env_args:
+  desc: null
+  value:
+    key: rware:rware-tiny-2ag-v2
+    time_limit: 300
+    pretrained_wrapper: null
+    seed: 66490634
+batch_size_run:
+  desc: null
+  value: 1
+test_nepisode:
+  desc: null
+  value: 10
+test_interval:
+  desc: null
+  value: 20000
+test_greedy:
+  desc: null
+  value: true
+log_interval:
+  desc: null
+  value: 50000
+runner_log_interval:
+  desc: null
+  value: 10000
+learner_log_interval:
+  desc: null
+  value: 10000
+t_max:
+  desc: null
+  value: 200000
+use_cuda:
+  desc: null
+  value: false
+buffer_cpu_only:
+  desc: null
+  value: true
+use_tensorboard:
+  desc: null
+  value: false
+use_wandb:
+  desc: null
+  value: true
+wandb_team:
+  desc: null
+  value: yuthu318-link-ping-university
+wandb_project:
+  desc: null
+  value: marl-rware-tl
+wandb_mode:
+  desc: null
+  value: offline
+wandb_save_model:
+  desc: null
+  value: false
+save_model:
+  desc: null
+  value: false
+save_model_interval:
+  desc: null
+  value: 50000
+checkpoint_path:
+  desc: null
+  value: ''
+evaluate:
+  desc: null
+  value: false
+render:
+  desc: null
+  value: false
+load_step:
+  desc: null
+  value: 0
+save_replay:
+  desc: null
+  value: false
+local_results_path:
+  desc: null
+  value: results
+gamma:
+  desc: null
+  value: 0.99
+batch_size:
+  desc: null
+  value: 32
+buffer_size:
+  desc: null
+  value: 5000
+lr:
+  desc: null
+  value: 0.0005
+optim_alpha:
+  desc: null
+  value: 0.99
+optim_eps:
+  desc: null
+  value: 1.0e-05
+grad_norm_clip:
+  desc: null
+  value: 10
+add_value_last_step:
+  desc: null
+  value: true
+agent:
+  desc: null
+  value: rnn
+hidden_dim:
+  desc: null
+  value: 64
+obs_agent_id:
+  desc: null
+  value: true
+obs_last_action:
+  desc: null
+  value: false
+repeat_id:
+  desc: null
+  value: 1
+label:
+  desc: null
+  value: QMIX__rware_tiny__2ag__vanilla
+hypergroup:
+  desc: null
+  value: null
+action_selector:
+  desc: null
+  value: epsilon_greedy
+epsilon_start:
+  desc: null
+  value: 1.0
+epsilon_finish:
+  desc: null
+  value: 0.05
+epsilon_anneal_time:
+  desc: null
+  value: 50000
+evaluation_epsilon:
+  desc: null
+  value: 0.0
+target_update_interval_or_tau:
+  desc: null
+  value: 200
+obs_individual_obs:
+  desc: null
+  value: false
+standardise_returns:
+  desc: null
+  value: false
+standardise_rewards:
+  desc: null
+  value: true
+agent_output_type:
+  desc: null
+  value: q
+learner:
+  desc: null
+  value: q_learner
+double_q:
+  desc: null
+  value: true
+mixer:
+  desc: null
+  value: qmix
+use_rnn:
+  desc: null
+  value: false
+mixing_embed_dim:
+  desc: null
+  value: 32
+hypernet_layers:
+  desc: null
+  value: 2
+hypernet_embed:
+  desc: null
+  value: 64
+name:
+  desc: null
+  value: qmix
+seed:
+  desc: null
+  value: 66490634

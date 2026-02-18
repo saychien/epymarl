@@ -1,0 +1,119 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/Users/huangyuting/Desktop/thesis/epymarl/src",
+    "dependencies": [
+      "numpy==2.0.2",
+      "pyyaml==5.3.1",
+      "sacred==0.8.7",
+      "torch==2.8.0"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      },
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      },
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_b2cc1db06d11795e4f8cf6a3b0165fa1.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_29fd448eb2929a57e5fd2547c431175b.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_80685d67fab61f6e71e93fbe28085531.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-02-18T18:10:11.839496",
+  "host": {
+    "ENV": {},
+    "cpu": "Apple M1",
+    "hostname": "huangyutingdeMacBook-Air.local",
+    "os": [
+      "Darwin",
+      "macOS-14.6.1-arm64-arm-64bit"
+    ],
+    "python_version": "3.9.23"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "batch_size_run": 1,
+      "env_args": {
+        "key": "rware:rware-tiny-2ag-v2",
+        "time_limit": 300
+      },
+      "label": "QMIX__rware_tiny__2ag__vanilla",
+      "t_max": 200000,
+      "test_interval": 20000,
+      "test_nepisode": 10,
+      "use_wandb": true,
+      "wandb_mode": "offline",
+      "wandb_project": "marl-rware-tl",
+      "wandb_team": "yuthu318-link-ping-university"
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.key=rware:rware-tiny-2ag-v2",
+        "env_args.time_limit=300",
+        "t_max=200000",
+        "test_interval=20000",
+        "test_nepisode=10",
+        "batch_size_run=1",
+        "use_wandb=True",
+        "wandb_mode=offline",
+        "wandb_team=yuthu318-link-ping-university",
+        "wandb_project=marl-rware-tl",
+        "label=QMIX__rware_tiny__2ag__vanilla"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-02-18T18:05:47.246341",
+  "status": "COMPLETED",
+  "stop_time": "2026-02-18T18:10:09.818462"
+}

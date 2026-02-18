@@ -1,0 +1,30 @@
+[INFO 18:59:20] my_main *******************
+[INFO 18:59:20] my_main WANDB RUN ID:
+[INFO 18:59:20] my_main p7p55tdt
+[INFO 18:59:20] my_main *******************
+[INFO 18:59:22] my_main Beginning training for 20000 timesteps
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:93: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target["filled"][slices] = 1
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:105: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  self._check_safe_view(v, target[k][_slices])
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:106: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target[k][_slices] = v.view_as(target[k][_slices])
+/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:245: UserWarning: [33mWARN: The reward returned by `step()` must be a float, int, np.integer or np.floating, actual type: <class 'list'>
+  logger.warn(
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:110: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  v = target[k][_slices]
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:113: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  target[new_k][_slices] = v.view_as(target[new_k][_slices])
+[INFO 18:59:22] my_main t_env: 200 / 20000
+[INFO 18:59:22] my_main Estimated time left: 1 seconds. Time passed: 0 seconds
+[INFO 18:59:27] my_main t_env: 5200 / 20000
+[INFO 18:59:27] my_main Estimated time left: 14 seconds. Time passed: 5 seconds
+/Users/huangyuting/Desktop/thesis/epymarl/src/components/episode_buffer.py:152: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_variable_indexing.cpp:312.)
+  new_data.transition_data[k] = v[item]
+[INFO 18:59:34] my_main t_env: 10200 / 20000
+[INFO 18:59:34] my_main Estimated time left: 13 seconds. Time passed: 12 seconds
+[INFO 18:59:41] my_main t_env: 15200 / 20000
+[INFO 18:59:41] my_main Estimated time left: 6 seconds. Time passed: 18 seconds
+[INFO 18:59:47] my_main t_env: 20200 / 20000
+[INFO 18:59:47] my_main Estimated time left: -. Time passed: 25 seconds
+[INFO 18:59:48] my_main Finished Training

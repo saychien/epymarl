@@ -1,0 +1,487 @@
+2026-02-18 19:12:09 INFO open for scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/run-p7p55tdt.wandb
+2026-02-18 19:12:10 INFO watching files in: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files
+2026-02-18 19:12:10 INFO run started: p7p55tdt with start time 1771437560.333689
+2026-02-18 19:12:10 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:12:10 INFO saving file requirements.txt with policy now
+2026-02-18 19:12:11 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:12:11 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp6mifxqxkwandb/orrg4sxw-wandb-metadata.json
+2026-02-18 19:12:11 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp6mifxqxkwandb/8lkwpe1y-requirements.txt
+2026-02-18 19:12:11 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:12:11 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:12:11 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-metadata.json
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:11 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:12 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:12 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:12 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:12 INFO shutting down sender
+2026-02-18 19:12:12 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp6mifxqxkwandb/w280zaim-wandb-metadata.json
+2026-02-18 19:12:12 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:12:12 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json
+2026-02-18 19:12:13 INFO shutting down directory watcher
+2026-02-18 19:12:13 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:12:13 INFO scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files
+2026-02-18 19:12:13 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/requirements.txt requirements.txt
+2026-02-18 19:12:13 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log output.log
+2026-02-18 19:12:13 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml config.yaml
+2026-02-18 19:12:13 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json wandb-summary.json
+2026-02-18 19:12:13 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-metadata.json wandb-metadata.json
+2026-02-18 19:12:13 INFO shutting down file pusher
+2026-02-18 19:12:13 INFO waiting for file pusher
+2026-02-18 19:12:14 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:12:14 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json
+2026-02-18 19:12:14 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:12:14 INFO file stream finish called
+2026-02-18 19:12:15 INFO file stream finish is done
+2026-02-18 19:12:15 INFO open for scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/run-fdmojwww.wandb
+2026-02-18 19:12:16 INFO watching files in: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files
+2026-02-18 19:12:16 INFO run started: fdmojwww with start time 1771437948.333267
+2026-02-18 19:12:16 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:12:16 INFO saving file requirements.txt with policy now
+2026-02-18 19:12:17 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:12:17 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpb2lejl7ywandb/jzq6a4mq-requirements.txt
+2026-02-18 19:12:17 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpb2lejl7ywandb/83a5jiy9-wandb-metadata.json
+2026-02-18 19:12:17 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:12:17 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:12:17 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-metadata.json
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:12:17 INFO shutting down sender
+2026-02-18 19:12:17 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpb2lejl7ywandb/nxott7wc-wandb-metadata.json
+2026-02-18 19:12:18 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:12:18 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json
+2026-02-18 19:12:18 INFO shutting down directory watcher
+2026-02-18 19:12:19 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:12:19 INFO scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files
+2026-02-18 19:12:19 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/requirements.txt requirements.txt
+2026-02-18 19:12:19 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log output.log
+2026-02-18 19:12:19 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml config.yaml
+2026-02-18 19:12:19 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json wandb-summary.json
+2026-02-18 19:12:19 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-metadata.json wandb-metadata.json
+2026-02-18 19:12:19 INFO shutting down file pusher
+2026-02-18 19:12:19 INFO waiting for file pusher
+2026-02-18 19:12:19 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:12:19 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json
+2026-02-18 19:12:19 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:12:20 INFO file stream finish called
+2026-02-18 19:12:21 INFO file stream finish is done
+2026-02-18 19:56:35 INFO open for scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/run-p7p55tdt.wandb
+2026-02-18 19:56:36 INFO watching files in: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files
+2026-02-18 19:56:36 INFO run started: p7p55tdt with start time 1771437560.333689
+2026-02-18 19:56:36 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:36 INFO saving file requirements.txt with policy now
+2026-02-18 19:56:36 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:37 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:56:37 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-metadata.json
+2026-02-18 19:56:37 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:56:37 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpyyncifsjwandb/z18wqubg-wandb-metadata.json
+2026-02-18 19:56:37 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpyyncifsjwandb/9rucilvc-requirements.txt
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:37 INFO shutting down sender
+2026-02-18 19:56:37 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpyyncifsjwandb/apj2dp9x-wandb-metadata.json
+2026-02-18 19:56:38 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json
+2026-02-18 19:56:38 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:56:38 INFO shutting down directory watcher
+2026-02-18 19:56:39 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:56:39 INFO scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files
+2026-02-18 19:56:39 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/requirements.txt requirements.txt
+2026-02-18 19:56:39 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log output.log
+2026-02-18 19:56:39 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml config.yaml
+2026-02-18 19:56:39 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json wandb-summary.json
+2026-02-18 19:56:39 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-metadata.json wandb-metadata.json
+2026-02-18 19:56:39 INFO shutting down file pusher
+2026-02-18 19:56:39 INFO waiting for file pusher
+2026-02-18 19:56:39 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/wandb-summary.json
+2026-02-18 19:56:39 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/output.log
+2026-02-18 19:56:39 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_185919-p7p55tdt/files/config.yaml
+2026-02-18 19:56:40 INFO file stream finish called
+2026-02-18 19:56:40 INFO file stream finish is done
+2026-02-18 19:56:40 INFO open for scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/run-fdmojwww.wandb
+2026-02-18 19:56:41 INFO watching files in: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files
+2026-02-18 19:56:41 INFO run started: fdmojwww with start time 1771437948.333267
+2026-02-18 19:56:41 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:41 INFO saving file requirements.txt with policy now
+2026-02-18 19:56:42 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:42 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:56:42 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:56:42 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-metadata.json
+2026-02-18 19:56:42 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpuuhp0uv5wandb/5cxh0ju8-requirements.txt
+2026-02-18 19:56:42 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpuuhp0uv5wandb/i22yw6jm-wandb-metadata.json
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:42 INFO shutting down sender
+2026-02-18 19:56:43 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmpuuhp0uv5wandb/mlybl0cu-wandb-metadata.json
+2026-02-18 19:56:43 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:56:43 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json
+2026-02-18 19:56:43 INFO shutting down directory watcher
+2026-02-18 19:56:44 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:56:44 INFO scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files
+2026-02-18 19:56:44 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/requirements.txt requirements.txt
+2026-02-18 19:56:44 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log output.log
+2026-02-18 19:56:44 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml config.yaml
+2026-02-18 19:56:44 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json wandb-summary.json
+2026-02-18 19:56:44 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-metadata.json wandb-metadata.json
+2026-02-18 19:56:44 INFO shutting down file pusher
+2026-02-18 19:56:44 INFO waiting for file pusher
+2026-02-18 19:56:44 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/config.yaml
+2026-02-18 19:56:44 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/output.log
+2026-02-18 19:56:44 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_190548-fdmojwww/files/wandb-summary.json
+2026-02-18 19:56:45 INFO file stream finish called
+2026-02-18 19:56:46 INFO file stream finish is done
+2026-02-18 19:56:46 INFO open for scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/run-w5a4isid.wandb
+2026-02-18 19:56:47 INFO watching files in: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files
+2026-02-18 19:56:47 INFO run started: w5a4isid with start time 1771438695.684279
+2026-02-18 19:56:47 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:47 INFO saving file requirements.txt with policy now
+2026-02-18 19:56:48 INFO saving file wandb-metadata.json with policy now
+2026-02-18 19:56:48 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/config.yaml
+2026-02-18 19:56:48 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/wandb-metadata.json
+2026-02-18 19:56:48 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/output.log
+2026-02-18 19:56:48 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp641ahxfdwandb/9zfzxib5-wandb-metadata.json
+2026-02-18 19:56:48 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp641ahxfdwandb/sf9vf3yv-requirements.txt
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO Uploaded file /var/folders/jt/58mgltmn20d47wm21xksdzt80000gn/T/tmp641ahxfdwandb/8dp84cqq-wandb-metadata.json
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO saving file wandb-summary.json with policy end
+2026-02-18 19:56:48 INFO shutting down sender
+2026-02-18 19:56:49 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/config.yaml
+2026-02-18 19:56:49 INFO file/dir created: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/wandb-summary.json
+2026-02-18 19:56:49 INFO shutting down directory watcher
+2026-02-18 19:56:50 INFO file/dir modified: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/output.log
+2026-02-18 19:56:50 INFO scan: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files
+2026-02-18 19:56:50 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/requirements.txt requirements.txt
+2026-02-18 19:56:50 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/output.log output.log
+2026-02-18 19:56:50 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/config.yaml config.yaml
+2026-02-18 19:56:50 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/wandb-summary.json wandb-summary.json
+2026-02-18 19:56:50 INFO scan save: /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/wandb-metadata.json wandb-metadata.json
+2026-02-18 19:56:50 INFO shutting down file pusher
+2026-02-18 19:56:50 INFO waiting for file pusher
+2026-02-18 19:56:50 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/wandb-summary.json
+2026-02-18 19:56:50 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/output.log
+2026-02-18 19:56:50 INFO Uploaded file /Users/huangyuting/Desktop/thesis/epymarl/wandb/offline-run-20260218_191815-w5a4isid/files/config.yaml
+2026-02-18 19:56:51 INFO file stream finish called
+2026-02-18 19:56:52 INFO file stream finish is done

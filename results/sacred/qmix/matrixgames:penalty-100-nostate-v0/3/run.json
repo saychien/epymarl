@@ -1,0 +1,115 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/Users/huangyuting/Desktop/thesis/epymarl/src",
+    "dependencies": [
+      "numpy==2.0.2",
+      "pyyaml==5.3.1",
+      "sacred==0.8.7",
+      "torch==2.8.0"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      },
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      },
+      {
+        "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+        "dirty": true,
+        "url": "https://github.com/saychien/epymarl.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_b2cc1db06d11795e4f8cf6a3b0165fa1.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_29fd448eb2929a57e5fd2547c431175b.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_80685d67fab61f6e71e93fbe28085531.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/opt/anaconda3/envs/epymarl_p1/lib/python3.9/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"/Users/huangyuting/Desktop/thesis/epymarl/src/main.py\", line 44, in my_main\n    run(_run, config, _log)\n",
+    "  File \"/Users/huangyuting/Desktop/thesis/epymarl/src/run.py\", line 59, in run\n    logger.setup_wandb(\n",
+    "  File \"/Users/huangyuting/Desktop/thesis/epymarl/src/utils/logging.py\", line 36, in setup_wandb\n    assert (\n",
+    "AssertionError: W&B logging requires specification of both `wandb_team` and `wandb_project`.\n"
+  ],
+  "heartbeat": "2026-02-18T17:10:51.183991",
+  "host": {
+    "ENV": {},
+    "cpu": "Apple M1",
+    "hostname": "huangyutingdeMacBook-Air.local",
+    "os": [
+      "Darwin",
+      "macOS-14.6.1-arm64-arm-64bit"
+    ],
+    "python_version": "3.9.23"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "env_args": {
+        "key": "matrixgames:penalty-100-nostate-v0",
+        "time_limit": 25
+      },
+      "use_wandb": true,
+      "wandb_mode": "offline",
+      "wandb_project": "epymarl-phase1"
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.time_limit=25",
+        "env_args.key=matrixgames:penalty-100-nostate-v0",
+        "use_wandb=True",
+        "wandb_project=epymarl-phase1",
+        "wandb_mode=offline"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-02-18T17:10:50.321157",
+  "status": "FAILED",
+  "stop_time": "2026-02-18T17:10:51.188151"
+}
